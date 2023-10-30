@@ -1,0 +1,41 @@
+
+enable
+
+con?
+conf?
+
+configure terminal
+
+enable password [password1234]
+
+enable secret [password1234]
+
+hostname R1
+
+no ip domain-lookup
+
+
+
+line console 0
+
+exec-timeout 0 0
+
+logging synchronous
+
+end
+
+
+
+
+
+show version
+
+show running-config
+
+show interface [interface name]
+
+show ip interface brief
+
+show controllers serial 0/0 (dce dte check rate)
+
+show ip route
